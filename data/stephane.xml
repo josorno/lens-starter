@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">Terra Digitalis</journal-id>
+      <issn pub-type="epub">0000-000X</issn>
+      <publisher>
+        <publisher-name>Terra Digitalis</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.1000/123456</article-id>
+      <article-categories>
+        <subj-group subj-group-type="display-channel">
+          <subject>Articulo de investigación</subject>
+        </subj-group>
+        <subj-group subj-group-type="heading">
+          <subject>Geografía</subject>
+        </subj-group>
+        <!--<subj-group subj-group-type="heading">
+          <subject>Genes and Chromosomes</subject>
+        </subj-group>-->
+      </article-categories>
+      <title-group>
+        <article-title>Visualización multi-escala de aciertos y errores de un mapa de usos de suelo: el caso de la cuenca del lago de Cuitzeo Michoacán, México</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stephane</surname>
+            <given-names>Couturier</given-names>
+          </name>
+          <xref ref-type="aff" rid="stephane"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Coria Tapia</surname>
+            <given-names>Valdemar</given-names>
+          </name>
+          <xref ref-type="aff" rid="coria"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Deniau</surname>
+            <given-names>Yannick</given-names>
+          </name>
+          <xref ref-type="aff" rid="stephane"/>
+         </contrib>
+        <aff id="stephane">
+          <institution content-type="dept">
+       Laboratorio de Análisis Geo-Espacial (LAGE), Instituto de Geografía, Universidad Nacional Autónoma de México 
+       </institution>
+         ,
+         <addr-line>
+        <named-content content-type="city">México, D. F</named-content>
+         </addr-line>
+         ,
+         <country>México</country>
+        </aff>
+        <aff id="coria">
+          <institution content-type="dept">
+       Instituto Nacional de Estadística y Geografía (INEGI)
+       </institution>
+         ,
+         <addr-line>
+        <named-content content-type="city">Aguascalientes, Ags</named-content>
+         </addr-line>
+         ,
+         <country>México</country>
+        </aff>
+      </contrib-group>
+      <pub-date pub-type="epub">
+        <year>2013</year>
+      </pub-date>
+      <volume>1</volume>
+      <issue>1</issue>
+      <fpage>1</fpage>
+      <lpage>2</lpage>
+      <permissions>
+        <copyright-statement>Copyright &#169; 2017, Couturier Stephane, Valdemar Coria Tapia y Yannick Deniau. </copyright-statement>
+        <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. The citation of this article must include: the name(s) of the authors, the name of the journal, the full URL of the article (in a hyperlinked format if distributed online) and the DOI number of the article.</license-p>
+        </license>
+      </permissions>
+      <self-uri>http://132.248.14.208/html/ojs/index.php/terra_digitalis/</self-uri>
+      <abstract>
+      	<title>Abstract</title>
+        <p>En la última década, un avance metodológico significativo ha permitido medir la fiabilidad de mapas regionales de usos de suelo en los paisajes altamente dinámicos de los países sub-tropicales. Lo anterior ha sido posible con un desarrollo geoestadístico y con la teoría de la lógica difusa, y ha involucrado la construcción de un acervo detallado de materiales cartográficos evaluados y de verificación. Sin embargo, la visualización de ambos materiales, de su comparación, y de la distribución espacial explícita de aciertos y errores derivados de estos estudios (con su enorme potencial visual-explicativo para la toma de decisiones con base en esta cartografía), no ha sido publicada. Presentamos aquí la visualización de aciertos y errores, con criterios de lógica difusa, del mapa de usos de suelo de alta taxonomía de la cuenca del lago de Cuitzeo extraído de la cartografía a escala 1:250,000 del Inventario Forestal Nacional del año 2000 en México.</p>
+      </abstract>
+      <kwd-group kwd-group-type="author-created">
+		<title>Palabras clave</title>
+		<kwd>Ordenamiento territorial</kwd>
+		<kwd>cobertura vegetal</kwd>
+		<kwd>abandono de cultivos</kwd>
+		<kwd>paisaje dinámico</kwd>
+		<kwd>lógica difusas</kwd>
+		<kwd>confiabilidad</kwd>
+	   </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Introducción</title>
+      <p>Una vocaci&#243;n de la cartograf&#237;a de cobertura vegetal y usos de suelo (CVUS) a nivel regional es ser &#250;til a un &#243;rgano de toma de decisiones para la planeaci&#243;n o el ordenamiento territorial / ecol&#243;gico. Un atributo importante de esta cartograf&#237;a es su fiabilidad, es decir qu&#233; tanto corresponden las categor&#237;as representadas en ella con la realidad, o bien qu&#233; cantidad de aciertos y de errores tienen estas categor&#237;as. En M&#233;xico, un avance metodol&#243;gico significativo ha sido realizado en la &#250;ltima d&#233;cada en cuanto a medir la fiabilidad de mapas regionales de alta taxonom&#237;a (<xref rid="ID9ea4370c-66b1-4a47-93e7-a447166f5017" ref-type="bibr" id="IDa9ad3ab7-6bf0-481a-8d53-70a1cefc44c9">Couturier, 2007</xref>),(<xref rid="ID1936c818-5902-4894-b506-305f8a9fe0c2" ref-type="bibr" id="ID16b3b42d-b989-42a6-9e23-86411a66a243">Couturier, 2012</xref>), utilizando los &#250;ltimos avances en muestreos complejos, geoestad&#237;stica y l&#243;gica difusa. En particular, el plan de desarrollo para la producci&#243;n cartogr&#225;fica del Inventario Forestal Nacional del a&#241;o 2000 (IFN2000), elaborado en el Instituto de Geograf&#237;a de la UNAM, ha involucrado la construcci&#243;n de un acervo detallado de materiales cartogr&#225;ficos evaluados y de materiales de verificaci&#243;n (Mas et al., 2002). Con las recomendaciones por organismos internacionales en el sentido de adoptar estos m&#233;todos, el Instituto Nacional de Estad&#237;sticas y Geograf&#237;a (INEGI) y la Comisi&#243;n Nacional Forestal (CONAFOR) est&#225;n considerando incorporar este tipo de material para producir cartograf&#237;a estad&#237;sticamente robusta en M&#233;xico, aunque todav&#237;a no lo hacen (<xref rid="IDbb097637-39a8-4a8c-9fad-14a58fb90af5" ref-type="bibr" id="ID7aa41855-dd37-46b6-9add-d5257cb5c756">Martínez y Couturier, 2016</xref>).</p>
+      <p>Partiendo de la propiedad sin&#243;ptica de la cartograf&#237;a, argumentamos que la visualizaci&#243;n espacial de aciertos y errores en cima del mapa de CVUS permite una comprensi&#243;n m&#225;s inmediata y una utilizaci&#243;n de la informaci&#243;n de fiabilidad por parte de usuarios del mapa como organizaciones sociales y/o sujetos de distintos niveles pol&#237;tico-administrativos.</p>
+      <p>La cuenca cerrada del lago de Cuitzeo est&#225; ubicada al noreste del estado de Michoac&#225;n, M&#233;xico. En sus 400 000 ha de superficie se encuentran usos de suelo como la agricultura de temporal anual, la agricultura de riego y el pastizal inducido. La cobertura vegetal original era principalmente bosque de encino, pino-encino y pino hacia el suroeste, y matorral sub-tropical hacia el noreste. La alta diversidad taxon&#243;mica a nivel sub-comunidad (21 clases) del mapa de CVUS del IFN2000 traduce paisajes muy fragmentados y din&#225;micos as&#237; como transiciones entre zonas clim&#225;ticas, t&#237;picos de muchos escenarios sub-tropicales en M&#233;xico. </p>
+      <p>Este mapa se ha evaluado con un enfoque difuso por Couturier et al. (<xref rid="IDbc0d9955-2c2d-46cf-8275-5b98652f064c" ref-type="bibr" id="IDef7a27c9-adc3-45c6-b97c-494f43414766">Couturier et al., 2008</xref>), quienes presentan los resultados en la forma de matrices de error e &#237;ndices de fiabilidad, pero el material de verificaci&#243;n con interpretaci&#243;n difusa generado para la evaluaci&#243;n no se ha publicado como tal. Con el objetivo de extender la utilidad de los m&#233;todos de evaluaci&#243;n de fiabilidad. Presentamos aqu&#237; un nuevo tipo de cartograf&#237;a, que consiste en combinar el mapa de inter&#233;s con su material de verificaci&#243;n basado en una interpretaci&#243;n difusa. </p>
+    </sec>
+    <sec>
+      <title>Método</title>
+      <p>La construcci&#243;n de las capas representadas en el mapa deriva de un material de verificaci&#243;n descrito en una primera subsecci&#243;n (abajo), y responde a una secuencia de tres etapas, t&#237;pica de un proceso de evaluaci&#243;n de fiabilidad de mapas de alta taxonom&#237;a ver Couturier (<xref rid="ID1936c818-5902-4894-b506-305f8a9fe0c2" ref-type="bibr" id="ID35521a29-3627-471f-b312-6071daa8c00f">Couturier, 2012</xref>):</p>
+      <list list-type="order">
+        <list-item>
+          <p>Dise&#241;o de muestreo en dos etapas (selecci&#243;n de marcos fotogr&#225;ficos y selecci&#243;n de puntos de verificaci&#243;n)</p>
+        </list-item>
+        <list-item>
+          <p>Interpretaci&#243;n de fotograf&#237;as a&#233;reas con l&#243;gica difusa,</p>
+        </list-item>
+        <list-item>
+          <p>Comparaci&#243;n entre material de verificaci&#243;n e informaci&#243;n del mapa. </p>
+        </list-item>
+      </list>
+    </sec>
+    <sec>
+      <title>Material de verificaci&#243;n</title>
+      <p>El material de verificaci&#243;n utilizado fue una cobertura completa de 244 fotograf&#237;as a&#233;reas en papel a escala 1:37,000 adquiridas en 1999, siendo &#233;stas casi s&#237;ncronas con las im&#225;genes Landsat del a&#241;o 2000 que sirvieron para la elaboraci&#243;n del IFN2000. El espacio-mapa representado fue elaborado con base en un compuesto a color de un mosaico de estas im&#225;genes Landsat (bandas 5, 4 y 1) del a&#241;o 2000, georreferenciadas a la cartograf&#237;a topogr&#225;fica del INEGI a 1:50,000. </p>
+      <p>Cuadros de aproximadamente 3 por 6 km se encuentran sobrepuestos a este mosaico y representan el &#225;rea &#250;til de fotograf&#237;a de una cobertura a&#233;rea a 1:37,000 adquirida en el a&#241;o 1999, georreferenciados tambi&#233;n a la cartograf&#237;a topogr&#225;fica del INEGI a 1:50,000. Estas &#225;reas &#250;tiles de fotograf&#237;a sirvieron de material principal de verificaci&#243;n. La cartograf&#237;a en los cuadros fue resultado de la interpretaci&#243;n difusa (ver subsecci&#243;n abajo) de la fotograf&#237;a a&#233;rea y fue la base de la primera evaluaci&#243;n estad&#237;sticamente robusta en un pa&#237;s subtropical (<xref rid="ID53713ba1-04db-4ac3-bad6-f7167dfdb8d6" ref-type="bibr" id="ID60897ce5-1945-4084-8cc3-99f4105d51b0">Couturier et al., 2007</xref>). </p>
+    </sec>
+    <sec>
+      <title>Dise&#241;o de muestreo en dos etapas</title>
+      <p>Para evaluar la fiabilidad del mapa del IFN 2000 en la cuenca del lago de Cuitzeo, se aplic&#243; un m&#233;todo de evaluaci&#243;n de fiabilidad en dos etapas (<xref rid="IDbc0d9955-2c2d-46cf-8275-5b98652f064c" ref-type="bibr" id="IDbe0105f5-bbe0-400d-b2ad-407c1b14c98e">Couturier et al., 2008</xref>) para 21 clases del nivel subcomunidad cartografiadas en la cuenca. El dise&#241;o de muestreo tiene como objetivo la selecci&#243;n de sitios estad&#237;sticamente representativos de cada clase del mapa. Para concentrar la muestra espacialmente y realizar as&#237; ahorros de recursos, se emplea un muestreo en dos etapas: Primero, se realiza una selecci&#243;n de Unidades Primarias de Muestreo (UPM), que corresponden a un &#225;rea &#250;til de fotograf&#237;a a&#233;rea. Segundo, se realiza una selecci&#243;n de Unidades Segundarias de Muestreo (USM), que corresponden a puntos de verificaci&#243;n dentro de las UPM previamente seleccionadas. En el caso de las clases comunes (clases cuya superficie rebasa los 5% del mapa), se realiz&#243; una selecci&#243;n aleatoria simple en la primera etapa y una selecci&#243;n aleatoria estratificada en la segunda etapa. En el caso de las clases escasas (clases cuya superficie es inferior a 5% del mapa), se realiz&#243; una selecci&#243;n aleatoria proporcional a la frecuencia de la clase en cada foto ver (<xref rid="IDbc0d9955-2c2d-46cf-8275-5b98652f064c" ref-type="bibr" id="ID02a3e638-643e-477b-9895-52513c34fd39">Couturier et al., 2008</xref>) en la primera etapa, y una selecci&#243;n aleatoria inversamente proporcional a esta frecuencia en la segunda etapa. Como elementos cartogr&#225;ficos resultados de este dise&#241;o est&#225;n los cuadros fotogr&#225;ficos seleccionados y los puntos de verificaci&#243;n. </p>
+    </sec>
+    <sec>
+      <title>Interpretaci&#243;n de fotograf&#237;as a&#233;reas con l&#243;gica difusa</title>
+      <p>La cuenca del lago de Cuitzeo comprende situaciones de complejidad del paisaje, t&#237;picas de zonas subtropicales como son: transici&#243;n entre clima tropical seco y clima templado subh&#250;medo, &#225;reas con actividad agr&#237;cola de roza, tumba y quema, transici&#243;n espacial y temporal entre diferentes tipos de vegetaci&#243;n, paisajes muy fragmentados, etc. El desaf&#237;o que estas situaciones representan es la correcta caracterizaci&#243;n de los puntos de verificaci&#243;n en el m&#233;todo de evaluaci&#243;n, pues no siempre es posible ni conveniente limitarse a una clase &#250;nica para caracterizar el punto de verificaci&#243;n, porque este ejercicio puede ser subjetivo (<xref rid="ID3f1392b1-69ce-4c6d-ab72-4c9420b2edd3" ref-type="bibr" id="IDb4b56189-7f30-4a9a-9527-3dd0d23b4181">Stehman y Czaplewski, 1998</xref>). Tales evaluaciones subjetivas del mapa llevan generalmente a subestimar su fiabilidad (<xref rid="IDd29d9c2f-74ae-4f9e-b861-f5cadbe3196c" ref-type="bibr" id="ID6b549e4e-41fb-45ca-8a76-171fa0a3012f">Laba et al., 2002</xref>). Una estrategia empleada para tomar en cuenta la posible ambig&#252;edad tem&#225;tica del sitio de verificaci&#243;n es el enfoque difuso ling&#252;&#237;stico (<xref rid="ID332c95d0-b37a-4fbe-97af-4b9645c1aafe" ref-type="bibr" id="IDe2a912a4-ca5b-4041-95e3-1c9ee93f4e4d">Gopal y Woodcock, 1994</xref>), muy bien adaptado para la clasificaci&#243;n visual de fotograf&#237;as. Las calificaciones difusas para etiquetar pol&#237;gonos son las siguientes:</p>
+      <p>5. Esta clase corresponde perfectamente al pol&#237;gono.</p>
+      <p>4. Esta clase corresponde bien al pol&#237;gono.</p>
+      <p>3. Esta clase no es la mejor opci&#243;n pero se encuentra parcial o probablemente en el pol&#237;gono.</p>
+      <list list-type="order">
+        <list-item>
+          <p>Esta clase no tiene que ver con el pol&#237;gono.</p>
+        </list-item>
+      </list>
+      <p>As&#237;, el material de verificaci&#243;n fue basado en la foto-interpretaci&#243;n difusa de est&#233;reo-pares anal&#243;gicos. Primero, una delineaci&#243;n de pol&#237;gonos homog&#233;neos se realiz&#243; a escala 1:125 000 (escala m&#225;s grande que la escala del IFN2000 y adecuada para foto-interpretaci&#243;n) en micas de interpretaci&#243;n. Segundo, esta interpretaci&#243;n se restituy&#243; en pantalla sobre fondo del espacio-mapa, permitiendo reducir errores geom&#233;tricos del material de verificaci&#243;n respecto del mapa IFN2000. Tercero, cada punto seleccionado (USM) para verificaci&#243;n se ubic&#243; primero en el compuesto a color del mosaico Landsat, y luego se transfiri&#243; visualmente en la mica de foto-interpretaci&#243;n. </p>
+      <p>A cada pol&#237;gono se le atribuy&#243; una calificaci&#243;n ling&#252;&#237;stica (ver arriba) para las cuatro clases m&#225;s probablemente representadas en el pol&#237;gono. Todo este proceso se realiz&#243; sin el conocimiento del contenido tem&#225;tico del IFN2000 en los materiales utilizados. </p>
+      <p>De este paso se deriva el conjunto de mini-mapas (&#8220;maplets&#8221;) de pol&#237;gonos, enmarcadas en las &#225;reas &#250;tiles de las fotograf&#237;as seleccionadas en el paso anterior, y cada pol&#237;gono est&#225; representado con la etiqueta de la clase m&#225;s probable contenida en &#233;l. </p>
+    </sec>
+    <sec>
+      <title>Comparaci&#243;n entre material de verificaci&#243;n e informaci&#243;n del mapa</title>
+      <p>En cada punto de verificaci&#243;n, v&#237;a filtros de un Sistema de Informaci&#243;n Geogr&#225;fica (SIG), se realiz&#243; la comparaci&#243;n entre las etiquetas difusas de verificaci&#243;n y las etiquetas del mapa IFN2000. Para tomar en cuenta la escala de mapa, se aplic&#243; una tolerancia de 500m entre la posici&#243;n del USM y la posici&#243;n de los pol&#237;gonos cartografiados (<italic>tolerancia de posici&#243;n</italic>). Para tomar en cuenta el car&#225;cter difuso del material de verificaci&#243;n, se utilizaron dos niveles de <italic>tolerancia tem&#225;tica</italic> para evaluar el mapa IFN2000: uno que toleran el conjunto de las clases con calificaci&#243;n superior o igual a 3, y otro que solo tolera el conjunto de clases con calificaci&#243;n de 5. De este paso se deriva la informaci&#243;n sobre el grado de acierto o error, seg&#250;n el nivel de tolerancia, en cada punto de verificaci&#243;n del mapa. </p>
+    </sec>
+    <sec>
+      <title>Elementos cartogr&#225;ficos del mapa</title>
+      <p>Derivado de los pasos descritos arriba, se obtiene una representaci&#243;n multiescalar de elementos cartogr&#225;ficos de verificaci&#243;n ver (<xref rid="IDf38499ba-a1c5-4ece-ab4d-23919ff71f79" ref-type="bibr" id="IDe46a56f3-145f-4e7e-958f-7e58a8b56529">Couturier et al., 2009</xref>) basados en la interpretaci&#243;n visual de fotograf&#237;as a&#233;reas, que incluyen <italic>un espacio-mapa</italic>, un conjunto de mini-mapas y sitios puntuales de verificaci&#243;n. La distribuci&#243;n de aciertos y errores se visualizan en los sitios puntuales, de acuerdo con cuatro niveles de tolerancia: un nivel bajo de tolerancia tem&#225;tica y posicional del material de verificaci&#243;n (para discriminar aciertos estrictos del mapa), un nivel bajo de tolerancia tem&#225;tica y alto de tolerancia posicional (aciertos con tolerancia posicional), y un nivel alto de tolerancia tem&#225;tica y posicional (aciertos con tolerancia posicional y tem&#225;tica, para discriminar errores estrictos del mapa).</p>
+    </sec>
+    <sec reflist="yes">
+      <title>Conclusiones </title>
+      <p>La composici&#243;n de colores basada en las im&#225;genes de sat&#233;lite revela, por el entretejido espacial fino de sus colores, cierta complejidad tem&#225;tica en la cuenca del Lago de Cuitzeo. La fiabilidad global y los patrones de error en clases del IFN2000 fueron registrados en forma de una matriz de confusi&#243;n en (<xref rid="IDbc0d9955-2c2d-46cf-8275-5b98652f064c" ref-type="bibr" id="ID4161d55f-2a3e-46f7-8f1f-7a61d7be8329">Couturier et al., 2008</xref>). Considerando la tolerancia m&#225;xima del criterio de l&#243;gica difusa, el &#237;ndice global de fiabilidad (IGF) del IFN en la cuenca del lago de Cuitzeo es de 81.3% y refleja principalmente el nivel alto de fiabilidad de la clase dominante &#8216;agricultura de temporal con cultivos anuales&#8217; (IGF = 89%), que se puede apreciar contando la proporci&#243;n de aciertos en el mapa interactivo para esta clase. Una alta fiabilidad se registr&#243; tambi&#233;n para las clases de bosque poco modificado (clases de bosque <italic>sin vegetaci&#243;n segundaria</italic>; IGF superior a 81%), matorral poco modificado (86%), cuerpos de agua (94%) y asentamientos humanos (100%). En contraste, numerosos errores fueron registrados para las clases de bosque muy modificados (bosque <italic>con vegetaci&#243;n secundaria</italic>). Adicionalmente, hubo alto grado de error para coberturas no arboladas de vegetaci&#243;n acu&#225;tica (popal-tular y pasto hal&#243;fito).</p>
+      <p>Estos &#237;ndices de fiabilidad ayudan a quienes elaboran los mapas en ubicar las clases dif&#237;ciles de cartografiar. Por ejemplo, la ambig&#252;edad y variabilidad espectral (entre fases de inundaci&#243;n) de los tipos de vegetaci&#243;n acu&#225;tica son probablemente factores claves para explicar el alto grado de error observado. Esta informaci&#243;n es &#250;til para el tomador de decisiones, quien deduce la zona del mapa en donde es necesaria una verificaci&#243;n m&#225;s extensa por visitas en campo. Por ejemplo, una instituci&#243;n federal que busca establecer una cartograf&#237;a base para un programa nacional de gesti&#243;n de recursos forestales tendr&#237;a que ayudarse de un acervo de fotograf&#237;as a&#233;reas, o de fuentes alternas de cartograf&#237;a a mayor escala, para utilizar y corregir las &#225;reas del IFN 2000 cartografiadas como bosque muy modificado.</p>
+      <p>Para sintetizar, los &#237;ndices de fiabilidad por clase, comentados arriba, son importantes para la toma de decisiones con base en un mapa de CVUS; &#201;stos se pueden apreciar visualmente, e incluso calcular, a partir del n&#250;mero de sitios (puntos) de acierto y errores en la visualizaci&#243;n del mapa interactivo. As&#237;, las nuevas tecnolog&#237;as de la informaci&#243;n geogr&#225;fica abren posibilidades interesantes en t&#233;rminos de apropiaci&#243;n del concepto de fiabilidad cartogr&#225;fica por parte de una gama cada vez m&#225;s extensa de usuarios.</p>
+    </sec>
+    <sec>
+      <title>Software </title>
+      <p>La capa raster fue generada con el software de Licencia ENVI, versi&#243;n 6.0. Las capas vectoriales fueron generadas con dos SIGs: Arc View, versi&#243;n 3.2, y ArcGIS, versi&#243;n 9.3. El dise&#241;o del mapa fue realizado con QGIS, versi&#243;n 2.14.3. </p>
+    </sec>
+    <sec>
+      <title>Datos </title>
+      <list list-type="order">
+        <list-item>
+          <p>La informaci&#243;n de mayor valor agregado derivada de la investigaci&#243;n son datos espaciales en formato vectorial (pol&#237;gonos y puntos). La informaci&#243;n est&#225; contenida en un sistema de informaci&#243;n geogr&#225;fica (QGIS, versi&#243;n 2.14.3) con las siguientes caracter&#237;sticas: La informaci&#243;n de mayor valor agregado derivada de la investigaci&#243;n son datos espaciales en formato vectorial (pol&#237;gonos y puntos). La informaci&#243;n est&#225; contenida en un sistema de informaci&#243;n geogr&#225;fica (QGIS, versi&#243;n 2.14.3) con las siguientes caracter&#237;sticas: </p>
+        </list-item>
+      </list>
+    </sec>
+    <sec>
+      <title>Informaci&#243;n de los datos espaciales </title>
+      <p>Estructura del dato: Vector </p>
+      <p>Tipo del dato: Puntos y pol&#237;gonos</p>
+      <p>N&#250;mero total de puntos: 2,023 </p>
+      <p>N&#250;mero total de pol&#237;gonos: 727 </p>
+    </sec>
+    <sec>
+      <title>Par&#225;metros cartogr&#225;ficos principales:</title>
+      <p>Proyecci&#243;n cartogr&#225;fica: Universal Transversa de Mercator (UTM), zona 14N</p>
+      <list list-type="order">
+        <list-item>
+          <p>Datum:  WGS 84    Datum: WGS 84  </p>
+        </list-item>
+      </list>
+    </sec>
+    <sec>
+      <title>Agradecimientos </title>
+      <list list-type="order">
+        <list-item>
+          <p>Los autores agradecen a Erna L&#243;pez Granados por haber proporcionado la cobertura de fotograf&#237;as a&#233;reas de la cuenca del lago de Cuitzeo. Parte de esta investigaci&#243;n se realiz&#243; en el &#225;mbito del proyecto CONACYT n&#250;m. 38965T por lo cual se le agradece a los fondo p&#250;blicos de investigaci&#243;n en M&#233;xico. Se agradece a varios ejidatarios de la tercer edad del pueblo El Cerro en las inmediaciones del lago de Cuitzeo, por proveer informaci&#243;n sobre din&#225;micas comunes del paisaje en la zona tropical seca de la cuenca. Los autores agradecen a Erna L&#243;pez Granados por haber proporcionado la cobertura de fotograf&#237;as a&#233;reas de la cuenca del lago de Cuitzeo. Parte de esta investigaci&#243;n se realiz&#243; en el &#225;mbito del proyecto CONACYT n&#250;m. 38965T por lo cual se le agradece a los fondo p&#250;blicos de investigaci&#243;n en M&#233;xico. Se agradece a varios ejidatarios de la tercer edad del pueblo El Cerro en las inmediaciones del lago de Cuitzeo, por proveer informaci&#243;n sobre din&#225;micas comunes del paisaje en la zona tropical seca de la cuenca. </p>
+        </list-item>
+      </list>
+    </sec>
+    <sec>
+      <title>Diseño del mapa </title>
+      <p>Un aspecto importante de la edici&#243;n cartogr&#225;fica consisti&#243; en harmonizar los colores y contrastes entre el compuesto a color de las im&#225;genes Landsat, la leyenda de los mapas de verificaci&#243;n (Unidades Primarias de Muestreo), y el color de los sitios de verificaci&#243;n (Unidades Segundarias de Muestreo).  </p>
+    </sec>
+    <sec>
+      <title>Figuras</title>
+      <fig id="fig1" position="float" orientation="portrait">
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://132.248.14.208/html/images_articles/couturier/image01.png" position="float" orientation="portrait" xlink:type="simple">
+          <label>Figura 1</label>
+          <caption>
+            <p>Visualización multi-escala de aciertos y errores de un mapa de usos de suelo: El caso de la cuenca del lago de Cuitzeo, Michoacán, México.</p>
+          </caption>
+        </graphic>
+      </fig>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Visualizador</title>
+      <supplementary-material id="map" xmlns:xlink="http://www.w3.org/1999/xlink"
+        xlink:title="local_file" xlink:href="http://132.248.14.208/html/mapas_estaticos/Eval_Usos_Suelo_Cuitzeo/html5forpc.html"
+        mimetype="application/html">
+        <object-id pub-id-type="doi">10.7554/eLife.21900.021</object-id>
+        <label>Mapa estático</label>
+        <caption>
+          <title>Visualización multiescala de aciertos...</title>
+          <p>
+            <bold>DOI:</bold>
+            <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.21900.021">http://dx.doi.org/10.7554/eLife.21900.021</ext-link>
+          </p>
+        </caption>
+      <media mime-subtype="html" mimetype="application" xlink:href="http://132.248.14.208/html/mapas_estaticos/Eval_Usos_Suelo_Cuitzeo/html5forpc.html"/>
+    </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref id="ID9ea4370c-66b1-4a47-93e7-a447166f5017">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Couturier</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <source>Evaluaci&#243;n de errores de cartas de cobertura vegetal y usos del suelo con enfoque difuso y con la simulaci&#243;n de im&#225;genes de sat&#233;lite</source>
+          <date>
+            <year>2007</year>
+          </date>
+          <publisher-loc>M&#233;xico</publisher-loc>
+          <publisher-name>None</publisher-name>
+        </element-citation>
+      </ref>
+      <!--[1] Couturier, S., 2007. Evaluaci&#243;n de errores de cartas de cobertura vegetal y usos del suelo con enfoque difuso y con la simulaci&#243;n de im&#225;genes de sat&#233;lite, tesis de Doctorado, UNAM/Universit&#233; Paul DSabatier de Tolouse, Francia (UPS), M&#233;xico.-->
+      <ref id="ID1936c818-5902-4894-b506-305f8a9fe0c2">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Couturier</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <source>The quality of detailed land cover maps in highly bio-diverse areas: lessons learned from the Mexican experience</source>
+          <date>
+            <year>2012</year>
+          </date>
+          <publisher-loc>None</publisher-loc>
+          <publisher-name>Sustainable Forest Management &#8211; Current Research, Intech Open Access Publishing</publisher-name>
+        </element-citation>
+      </ref>
+      <!--[2] Couturier, S., 2012. &#8220;The quality of detailed land cover maps in highly bio-diverse areas: lessons learned from the Mexican experience&#8221;, En: Diez, J.J. (Eds.),  Sustainable Forest Management &#8211; Current Research, Intech Open Access Publishing, pp. 19 - 44. ISBN 978-953-51-0621-0.-->
+      <ref id="IDf38499ba-a1c5-4ece-ab4d-23919ff71f79">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Couturier</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Mas</surname>
+              <given-names>J.-F.</given-names>
+            </name>
+            <name>
+              <surname>Cuevas</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Ben&#237;tez</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Vega-Guzm&#225;n</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Coria-Tapia</surname>
+              <given-names>V</given-names>
+            </name>
+          </person-group>
+          <article-title>An accuracy index with positional and thematic fuzzy bounds for land-use/ land-cover maps</article-title>
+          <source>Photogrammetric Engineering and Remote Sensing</source>
+          <date>
+            <year>2009</year>
+          </date>
+          <volume>75</volume>
+          <issue>7</issue>
+          <fpage>789</fpage>
+          <lpage>805</lpage>
+        </element-citation>
+      </ref>
+      <!--[3] Couturier, S., Mas J. F., Cuevas G., Ben&#237;tez J., Vega-Guzm&#225;n A., y Coria-Tapia V., 2009. &#8220;An accuracy index with positional and thematic fuzzy bounds for land-use/ land-cover maps&#8221;.  Photogrammetric Engineering and Remote Sensing, 75 (7), 789-805. -->
+      <ref id="IDbc0d9955-2c2d-46cf-8275-5b98652f064c">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Couturier</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Vega</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Mas</surname>
+              <given-names>J. F.</given-names>
+            </name>
+            <name>
+              <surname>Tapia</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>L&#243;pez-Granados</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Evaluaci&#243;n de confiabilidad del mapa del Inventario Forestal Nacional 2000: dise&#241;os de muestreo y caracterizaci&#243;n difusa de paisajes</article-title>
+          <source>Investigaciones Geogr&#225;ficas (UNAM)</source>
+          <date>
+            <year>2008</year>
+          </date>
+          <volume>67</volume>
+          <fpage>20</fpage>
+          <lpage>38</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ID53713ba1-04db-4ac3-bad6-f7167dfdb8d6">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Couturier</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Mas</surname>
+              <given-names>J.-F.</given-names>
+            </name>
+            <name>
+              <surname>Vega</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Tapia</surname>
+              <given-names>V</given-names>
+            </name>
+          </person-group>
+          <article-title>Accuracy assessment of land cover maps in sub-tropical countries: a sampling design for the Mexican National Forest Inventory map</article-title>
+          <source>Online Journal of Earth Sciences</source>
+          <date>
+            <year>2007</year>
+          </date>
+          <volume>1</volume>
+          <issue>3</issue>
+          <fpage>127</fpage>
+          <lpage>135</lpage>
+        </element-citation>
+      </ref>
+      <!--[5] Couturier, S., Mas, J. F., Vega, A., y Tapia, V., 2007. &#8220;Accuracy assessment of land cover maps in sub-tropical countries: a sampling design for the Mexican National Forest Inventory map&#8221;.  Online Journal of Earth Sciences, 1(3), 127-135. ISSN: 1991-7708 .-->
+      <ref id="ID332c95d0-b37a-4fbe-97af-4b9645c1aafe">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gopal</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Woodcock</surname>
+              <given-names>C.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Accuracy of the&#173;matic maps using fuzzy sets I: theory and methods</article-title>
+          <source>Photogrammetric Engineering and Remote Sensing</source>
+          <date>
+            <year>1994</year>
+          </date>
+          <fpage>35</fpage>
+          <lpage>46</lpage>
+        </element-citation>
+      </ref>
+      <!--[6] Gopal, S. and C. E. Woodcock (1994), &#8220;Accuracy of thematic maps using fuzzy sets I: theory and methods&#8221;, Photogrammetric Engineering and Remote Sensing, no. 58, pp. 35-46.-->
+      <ref id="IDd29d9c2f-74ae-4f9e-b861-f5cadbe3196c">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Laba</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Gregory</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Braden</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Ogurcak</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Hill</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Fegraus</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Fiore</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>DeGloria</surname>
+              <given-names>S. D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Con&#173;ventional and fuzzy accuracy assessment of the New York Gap Analysis Project land cover map</article-title>
+          <source>Remote Sensing of Environment</source>
+          <date>
+            <year>2002</year>
+          </date>
+          <fpage>443</fpage>
+          <lpage>455</lpage>
+        </element-citation>
+      </ref>
+      <!--[7] Laba, M., S. K. Gregory, J. Braden, D. Ogurcak, E. Hill, E. Fegraus, J. Fiore and S. D. DeGloria (2002), &#8220;Conventional and fuzzy accuracy assessment of the New York Gap Analysis Project land cover map&#8221;. Remote Sensing of Environment, no. 81, pp. 443-455.-->
+      <ref id="IDbb097637-39a8-4a8c-9fad-14a58fb90af5">
+        <element-citation publication-type="bookchapter">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mart&#237;nez Gonz&#225;lez</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Couturier</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>M&#233;todos geoestad&#237;sticos y enfoque difuso para el monitoreo forestal en M&#233;xico: hacia la medici&#243;n robusta de la deforestaci&#243;n global</article-title>
+          <source>Geograf&#237;a de M&#233;xico. Una reflexi&#243;n espacial contempor&#225;nea</source>
+          <date>
+            <year>n.d.</year>
+          </date>
+          <publisher-loc>None</publisher-loc>
+          <publisher-name>None</publisher-name>
+          <fpage>297</fpage>
+          <lpage>309</lpage>
+        </element-citation>
+      </ref>
+      <!--[8] Mart&#237;nez Gonz&#225;lez, R. y S. Couturier. 2016. &#8220;M&#233;todos geoestad&#237;sticos y enfoque difuso para el monitoreo forestal en M&#233;xico: hacia la medici&#243;n robusta de la deforestaci&#243;n global&#8221;, en: Moncada Maya J.O. y A. L&#243;pez L&#243;pez (coordinadores generales),  Geograf&#237;a de M&#233;xico. Una reflexi&#243;n espacial contempor&#225;nea. Tomo I. Instituto de Geograf&#237;a - UNAM. Pp. 297 &#8211; 309. ISBN: 978-607-02-8276-8. Ciudad de M&#233;xico.-->
+      <ref>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mas-Rodriguez</surname>
+              <given-names>J. F.</given-names>
+            </name>
+            <name>
+              <surname>Vel&#225;zquez</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Palacio-Prieto</surname>
+              <given-names>J. L.</given-names>
+            </name>
+            <name>
+              <surname>Bocco</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Peralta</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Prado</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Assessing forest resources in Mexico: Wall-to-wall land use/ cover mapping</article-title>
+          <source>Photogrammetric Engineering and Remote Sensing</source>
+          <date>
+            <year>2002</year>
+          </date>
+          <volume>68</volume>
+          <issue>10</issue>
+          <fpage>966</fpage>
+          <lpage>969</lpage>
+        </element-citation>
+      </ref>
+      <!--[9] Mas, J. F., A. Vel&#225;zquez, J. L. Palacio-Prieto, G. Bocco, A. Peralta and J. Prado (2002), &#8220;Assessing forest resources in Mexico: Wall-to-wall land use/ cover mapping&#8221;, Photogrammetric Engineering and Remote Sensing, no. 68(10), pp. 966-969.-->
+      <ref id="ID3f1392b1-69ce-4c6d-ab72-4c9420b2edd3">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stehman</surname>
+              <given-names>S. V.</given-names>
+            </name>
+            <name>
+              <surname>Czaplewski</surname>
+              <given-names>R. L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Design and analysis for thematic map accuracy assessment: fundamental principles</article-title>
+          <source>Remote Sensing of Environ&#173;ment</source>
+          <date>
+            <year>1998</year>
+          </date>
+          <fpage>331</fpage>
+          <lpage>344</lpage>
+        </element-citation>
+      </ref>
+      <!--[10] Stehman, S. V. and R. L. Czaplewski, 1998. &#8220;Design and analysis for thematic map accuracy assessment: fundamental principles&#8221;, Remote Sensing of Environment, no. 64, pp. 331-344.-->
+    </ref-list>
+  </back>
+</article>

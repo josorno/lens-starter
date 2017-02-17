@@ -20,12 +20,13 @@ TerraDigitalisConverter.Prototype = function() {
  	};
 
  	this.enhanceCover = function(state, node, element){
- 		var category;
- 		var dispChannel = element.querySelector("subj-group[subj-group-type=display-channel] subject").textContent;
+ 		var category, dispChannel; 		
 
  		try {
+ 			dispChannel = element.querySelector("subj-group[subj-group-type=display-channel] subject").textContent;
       		category = element.querySelector("subj-group[subj-group-type=heading] subject").textContent;
     	} catch(err) {
+    		dispChannel = null;
       		category = null;
     	}
 

@@ -32,7 +32,9 @@ var qs = function () {
 //var documentURL = "data/regionalizacion.xml";
 //var documentURL = "data/elife-21900-v1-codebeautify.xml";
 //var documentURL = "data/bautista.xml";
-var documentURL = "data/penelope.xml";
+//var documentURL = "data/penelope.xml";
+//var documentURL = "data/stephane.xml";
+var documentURL = "data/cid.xml";
 
 $(function() {
 

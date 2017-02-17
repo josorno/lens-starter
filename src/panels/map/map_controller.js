@@ -23,7 +23,7 @@ MapController.Prototype = function() {
 
   this.getMapVisualizerReference = function(){
       var my_supplements = this.document.get("publication_info").mySupplements;
-      if(my_supplements){
+      if(my_supplements[0]){
         return my_supplements[0].url;
       }
       return "";
