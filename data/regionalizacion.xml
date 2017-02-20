@@ -496,12 +496,12 @@
       <!-- This tags is not part of NLM/JATS, but I defined to have a place where store the href to the interactive maps or dinamic map whichever be the case 
       <map>http://132.248.14.208/html/visualizador_mapas/terra_digitalis/regionalizacion-michoacan.php</map>-->
     </sec>
-    <sec sec-type="supplementary-material">
+    <!--<sec sec-type="supplementary-material">
       <title>Visualizador</title>
       <supplementary-material id="map" xmlns:xlink="http://www.w3.org/1999/xlink"
-        xlink:title="local_file" xlink:href="http://132.248.14.46/maps/108/embed"
+        xlink:title="local_file" xlink:href="http://132.248.14.208/html/visualizador_mapas/terra_digitalis/regionalizacion-michoacan.php"
         mimetype="application/html">
-      <!--<object-id pub-id-type="doi">10.7554/eLife.21900.021</object-id>-->
+      <object-id pub-id-type="doi">10.7554/eLife.21900.021</object-id>
         <label>Mapa Interactivo</label>
         <caption>
           <title>La regionalización</title>
@@ -510,9 +510,9 @@
             <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.21900.021">http://dx.doi.org/10.7554/eLife.21900.021</ext-link>
           </p>
         </caption>
-      <media mime-subtype="php" mimetype="application" xlink:href="http://132.248.14.46/maps/108/embed"/>
+      <media mime-subtype="php" mimetype="application" xlink:href="http://132.248.14.208/html/visualizador_mapas/terra_digitalis/regionalizacion-michoacan.php"/>
     </supplementary-material>
-    </sec>
+    </sec>-->
   </body>
   <back>
     <ref-list>

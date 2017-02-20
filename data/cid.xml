@@ -12,9 +12,15 @@
     <article-meta>
       <article-id pub-id-type="doi">10.1000/123456</article-id>
       <article-categories>
-        <subj-group>
-          <subject>Sample Articles</subject>
+        <subj-group subj-group-type="display-channel">
+          <subject>Articulo de investigación</subject>
         </subj-group>
+        <subj-group subj-group-type="heading">
+          <subject>Geografía</subject>
+        </subj-group>
+        <!--<subj-group subj-group-type="heading">
+          <subject>Genes and Chromosomes</subject>
+        </subj-group>-->
       </article-categories>
       <title-group>
         <article-title>Mexico Quaternary Fault Database</article-title>
@@ -70,8 +76,6 @@
     </article-meta>
   </front>
   <body>
-    <sec>
-      <title>Mexico Quaternary Fault Database </title>
       <sec>
         <title>Introduction </title>
           <p>Mexico is located in a region of high seismic activity due to the interaction of the Pacific, Rivera, </p>
@@ -749,9 +753,23 @@
         </graphic>
       </fig>
   	</sec>
-    <!-- This tags is not part of NLM/JATS, but I defined to have a place where store the href to the interactive maps or dinamic map whichever be the case -->
-      <map>http://132.248.14.208/html/visualizador_mapas/terra_digitalis/fallas-cuaternarias.php</map>
-  </sec>
+    <sec sec-type="supplementary-material">
+      <title>Visualizador</title>
+      <supplementary-material id="map" xmlns:xlink="http://www.w3.org/1999/xlink"
+        xlink:title="local_file" xlink:href="http://132.248.14.208/html/visualizador_mapas/terra_digitalis/fallas-cuaternarias.php"
+        mimetype="application/html">
+      <!--<object-id pub-id-type="doi">10.7554/eLife.21900.021</object-id>-->
+        <label>Mapa Interactivo</label>
+        <caption>
+          <title>Fallas cuaternarias</title>
+          <p>
+            <bold>DOI:</bold>
+            <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.21900.021">http://dx.doi.org/10.7554/eLife.21900.021</ext-link>
+          </p>
+        </caption>
+      <media mime-subtype="php" mimetype="application" xlink:href="http://132.248.14.208/html/visualizador_mapas/terra_digitalis/fallas-cuaternarias.php"/>
+    </supplementary-material>
+    </sec>
   </body>
   <back>
     <ref-list>

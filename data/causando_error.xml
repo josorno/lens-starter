@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">The Journal Title</journal-id>
+      <issn pub-type="epub">0000-000X</issn>
+      <publisher>
+        <publisher-name>The Publisher Name</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.1000/123456</article-id>
+      <article-categories>
+        <subj-group>
+          <subject>Sample Articles</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A Sample Article Title</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Eve</surname>
+            <given-names>Martin Paul</given-names>
+          </name>
+          <xref ref-type="aff" rid="lincoln"/>
+        </contrib>
+        <aff id="lincoln">
+          <institution>University of Lincoln</institution>
+        </aff>
+      </contrib-group>
+      <pub-date pub-type="epub">
+        <year>2013</year>
+      </pub-date>
+      <volume>1</volume>
+      <issue>1</issue>
+      <fpage>1</fpage>
+      <lpage>2</lpage>
+      <permissions>
+        <copyright-statement>Copyright &#169; 2014, Martin Paul Eve</copyright-statement>
+        <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. The citation of this article must include: the name(s) of the authors, the name of the journal, the full URL of the article (in a hyperlinked format if distributed online) and the DOI number of the article.</license-p>
+        </license>
+      </permissions>
+      <self-uri>https://www.martineve.com/</self-uri>
+      <abstract>
+        <p>This is a sample abstract that forms part of the metadataSample.xml file in meTypeset.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Exploraci&#243;n sistem&#225;tica del efecto sobre el parser de meTypeset de distintas variantes de citas bibliogr&#225;ficas en espa&#241;ol, utilizando zotero</title>
+      <p>Javier Osorno; Instituto de Geograf&#237;a. UNAM, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="mailto:josorno@igg.unam.mx" ext-link-type="uri" xlink:type="simple">josorno@igg.unam.mx</ext-link>
+         </p>
+    </sec>
+    <sec>
+      <title>Resumen</title>
+      <p>Este documento sirve para explorar la conversi&#243;n de referencias de zotero en archivos docx generados por de Word 2013, a formato JATS/NLM utilizando meTypeset.</p>
+    </sec>
+    <sec>
+      <title>Introducci&#243;n</title>
+      <p>N&#243;tese que estoy utilizando el formato APA (American Psychological Asocietion 6th edition). En el archivo de Word inicial, por razones de portabilidad seg&#250;n recomienda Zotero, registre las citas a trav&#233;s de marcadores &#8211;la otra opci&#243;n es registrarlas como campos. Con esta modalidad de almacenamiento los marcadores se mantienen a trav&#233;s de Microsoft Word y OpenOffice.</p>
+    </sec>
+    <sec>
+      <title/>
+      <p>Material y M&#233;todos</p>
+      <p>El asunto es examinar sistem&#225;ticamente las distintas posibilidades de error: uso de guiones en el apellido, uso de may&#250;sculas solamente, bug del car&#225;cter de espacio en blanco, referencia declarada como informe, uso de may&#250;sculas en el &#8220;apellido&#8221;, discordancia de fechas etc.</p>
+    </sec>
+    <sec>
+      <title>Uso de guiones</title>
+      <p>Sospecho que del uso de guiones para denotar apellidos compuestos. En ingles el apellido es una sola palabra siempre.  </p>
+      <p><bold>Primera</bold> variante: Esta cita tiene guiones en los apellidos y supongo que por eso no la reconoce (<xref rid="ID4baa4b0d-0cfb-4aab-89a8-27c3358490a4" ref-type="bibr" id="IDdc8556f1-ada1-4b75-9655-febf66610bb5">Palacio-Prieto et&#160;al., 2001</xref>). </p>
+      <p><bold>Variante 2</bold>: Esta cita es similar pero no tiene guiones y elimin&#233; el segundo apellido (<xref rid="IDcfaebc91-b59e-4b46-9c91-2594cb240a6c" ref-type="bibr" id="IDa2b0cf92-abe9-4f57-945e-ebb69157ecd2">Palacio et&#160;al., 2002</xref>); deber&#237;a reconocerla sin problemas.</p>
+      <p><bold>Variante 3</bold>: Esta es similar pero los <bold>apellidos,</bold> del primer autor y subsecuentes, son <bold>dobles</bold> (<xref rid="ID1dcad572-beac-4e4a-bd19-00939849e471" ref-type="bibr" id="ID194148d2-c20f-47d1-a1d0-ac0785ab136a">Palacio Prieto et&#160;al., 2003</xref>).</p>
+    </sec>
+    <sec>
+      <title>Caracter esp&#250;reo</title>
+      <p>N&#243;tese que zotero a&#241;ade el car&#225;cter <bold>&#160;</bold> entre el &#8220;et&#8221; y &#8220;al&#8221;. En Word este caracter es intercambiable por un caracter en blanco. &#191;deber&#237;a borrarlo? Aqu&#237; borro el <bold>caracter esp&#250;reo</bold> y uso el caso de apellidos sencillos (<xref rid="IDcfaebc91-b59e-4b46-9c91-2594cb240a6c" ref-type="bibr" id="ID8a254c5a-d1fa-4d0f-8308-54ccb74777d8">Palacio et al., 2002</xref>).   </p>
+    </sec>
+    <sec>
+      <title>Referencia declarada como informe o como libro</title>
+      <p>Supongo que las referencias declaradas como <bold>informe</bold> no las lee. </p>
+      <p>Variante uno como informe (<xref rid="IDd28ba321-2444-412c-a6a5-b8e0f2627383" ref-type="bibr" id="ID5a18ec4c-4071-4835-b6a6-4936229450b0">CONAPO, 2001</xref>)</p>
+      <p>Variante dos: como libro (<xref rid="ID63bc2a38-02f3-4748-be05-c3f63186d4b8" ref-type="bibr" id="IDb7cade4e-5c55-45e3-8538-d84f4b7659d4">CONAPO, 2002</xref>)</p>
+    </sec>
+    <sec>
+      <title>Uso de solo may&#250;sculas en el &#8220;apellido&#8221; </title>
+      <p>Tambi&#233;n sospecho del uso de <bold>apellidos</bold> con solo <bold>may&#250;sculas</bold>. </p>
+      <p><bold>Variante 3</bold>: En esta cita el nombre inicia con may&#250;sculas y las dem&#225;s son min&#250;sculas; est&#225; declarada como libro as&#237; que deber&#237;a reconocerla a menos que el problema estribe en que no puede haber apellidos sin nombre &#8211;cuando menos una inicial (<xref rid="ID0fb2e006-a527-4233-a605-34f6925c8431" ref-type="bibr" id="IDbcb2eee8-87a6-4181-8f1e-e8de9dc2978a">Conapo, 2003</xref>). </p>
+      <p>Variante 4: igual a la anterior declarada como informe (<xref rid="ID0cbb6129-2840-4689-a59d-ca8d8f0c9380" ref-type="bibr" id="IDde5e84dc-ca73-4f65-bb70-d1617b7dba1e">Conapo, 2004</xref>)</p>
+    </sec>
+    <sec>
+      <title>Resultados</title>
+      <p>La p&#225;gina Web generada por &#8220;Lens&#8221; es esta (figura 1): </p>
+      <fig position="float" orientation="portrait">
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="media/image1.png" id="ID73ed48d3-5093-4f35-85f7-52e75e82ceef" position="float" orientation="portrait" xlink:type="simple">
+          <label>http://132</label>
+          <caption>
+            <p>24814208/html/ojs/indexphp/terra_digitalis/article/view/2/38</p>
+          </caption>
+        </graphic>
+        <p>Figura 1. Resultado en Lens del parser meTypeset con las referencias especificadas.</p>
+      </fig>
+      <p>Se confirma que el parser: </p>
+      <list list-type="simple">
+        <list-item>
+          <p>Reconoce las citas declaradas como libro &#8211;variantes 2 y 3 de la referencia de CONAPO</p>
+        </list-item>
+        <list-item>
+          <p><bold>No reconoce</bold> las citas declaradas como informe &#8211;variantes 3 y 4. </p>
+        </list-item>
+        <list-item>
+          <p>Reconoce las citas aun cuando<list list-type="simple"><list-item><p>Solo est&#233;n con may&#250;sculas</p></list-item><list-item><p>Exista solo el &#8220;apellido&#8221;</p></list-item></list>
+               </p>
+        </list-item>
+        <list-item>
+          <p>El parser reconoce las citas aun cuando tengan acentos; el t&#237;tulo de todas las referencias de CONAPO &#8220;&#205;ndices de marginaci&#243;n, 2000; variante tres&#8221; comienza con acento.</p>
+        </list-item>
+      </list>
+      <p>Queda por elucidar porque raz&#243;n no reconoci&#243; ninguna de las citas de Palacio-Prieto. Tendr&#237;a que haber reconocido la variante 2 que est&#225; declarada como art&#237;culo y apellidos simples (<xref rid="IDcfaebc91-b59e-4b46-9c91-2594cb240a6c" ref-type="bibr" id="ID036f9d06-1c2d-4215-88fc-f97573d47580">Palacio et&#160;al., 2002</xref>). Es extra&#241;o que en la prueba anterior si reconozca estas citas <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://132.248.14.208/html/ojs/index.php/terra_digitalis/article/view/2/36" ext-link-type="uri" xlink:type="simple"><xref rid="ID73ed48d3-5093-4f35-85f7-52e75e82ceef" ref-type="fig">http://132</xref>.248.14.208/html/ojs/index.php/terra_digitalis/article/view/2/36#content/citation_reference_1</ext-link> 
+         </p>
+      <p>Por otro lado se rechaza la conjetura de que el parser no reconoce nombres may&#250;sculas</p>
+    </sec>
+    <sec>
+      <title>Inserci&#243;n de figuras</title>
+      <p>Est&#225; por verse como hace para parsear las im&#225;genes (<xref rid="TO_LINK" ref-type="bibr" id="ID61d9a6e3-8994-4333-b7e4-e47e2404ebb4">figura 2</xref>). &#191;Busca el texto figuras en ingl&#233;s? &#191;En otros idiomas? &#191;parsea lo que est&#233; entre par&#233;ntesis?</p>
+      <fig position="float" orientation="portrait">
+        <graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="media/image2.png" position="float" orientation="portrait" xlink:type="simple"/>
+        <p>Figura 2. Verifica la inserci&#243;n de figuras</p>
+      </fig>
+    </sec>
+    <sec>
+      <title>Conclusiones</title>
+      <p>Aqu&#237; van las conclusiones</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref id="IDd28ba321-2444-412c-a6a5-b8e0f2627383">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>CONAPO</surname>
+              <given-names/>
+            </name>
+          </person-group>
+          <source>&#205;ndices de marginaci&#243;n, 2000; variante uno</source>
+          <date>
+            <year>2001</year>
+          </date>
+          <publisher-loc>M&#233;xico, D. F.</publisher-loc>
+          <publisher-name>Consejo Nacional de Poblaci&#243;n (CONAPO)</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="ID63bc2a38-02f3-4748-be05-c3f63186d4b8">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>CONAPO</surname>
+              <given-names/>
+            </name>
+          </person-group>
+          <source>&#205;ndices de marginaci&#243;n, 2000: variante dos</source>
+          <date>
+            <year>2002</year>
+          </date>
+          <publisher-loc>M&#233;xico, D. F.</publisher-loc>
+          <publisher-name>Consejo Nacional de Poblaci&#243;n (CONAPO)</publisher-name>
+        </element-citation>
+      </ref>
+      <!--CONAPO. (2002).  &#205;ndices de marginaci&#243;n, 2000: variante dos. M&#233;xico, D. F.: Consejo Nacional de Poblaci&#243;n (CONAPO). Recuperado a partir de http://www.conapo.gob.mx/work/models/CONAPO/indices_margina/indices/pdfs/IM2000_docprincipal.pdf-->
+      <ref id="ID0fb2e006-a527-4233-a605-34f6925c8431">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Conapo</surname>
+              <given-names/>
+            </name>
+          </person-group>
+          <source>&#205;ndices de marginaci&#243;n, 2000; variante tres</source>
+          <date>
+            <year>2003</year>
+          </date>
+          <publisher-loc>M&#233;xico, D. F.</publisher-loc>
+          <publisher-name>Consejo Nacional de Poblaci&#243;n (CONAPO)</publisher-name>
+        </element-citation>
+      </ref>
+      <!--Conapo. (2003).  &#205;ndices de marginaci&#243;n, 2000; variante tres. M&#233;xico, D. F.: Consejo Nacional de Poblaci&#243;n (CONAPO). Recuperado a partir de http://www.conapo.gob.mx/work/models/CONAPO/indices_margina/indices/pdfs/IM2000_docprincipal.pdf-->
+      <ref id="ID0cbb6129-2840-4689-a59d-ca8d8f0c9380">
+        <mixed-citation>Conapo. (2004). <italic>&#205;ndices de marginaci&#243;n, 2000, variante cuatro</italic> (p. 49). M&#233;xico, D. F.: Consejo Nacional de Poblaci&#243;n (CONAPO). Recuperado a partir de http://www.conapo.gob.mx/work/models/CONAPO/indices_margina/indices/pdfs/IM2000_docprincipal.pdf</mixed-citation>
+      </ref>
+      <ref id="IDcfaebc91-b59e-4b46-9c91-2594cb240a6c">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Palacio</surname>
+              <given-names>J. L</given-names>
+            </name>
+            <name>
+              <surname>Bocco</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Velázquez</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Takaki</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Mas</surname>
+              <given-names>J. F</given-names>
+            </name>
+            <name>
+              <surname>Gómez</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Inventario Nacional Forestal: variante dos.</article-title>
+          <source>Investigaciones Geogr&#225;ficas</source>
+          <date>
+            <year>2002</year>
+          </date>
+          <volume>43</volume>
+          <issue>2000</issue>
+          <fpage>183</fpage>
+          <lpage>203</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ID1dcad572-beac-4e4a-bd19-00939849e471">
+        <mixed-citation>Palacio Prieto, J. L., Bocco, G., Vel&#225;zquez, A., Mas, J. F., Takaki Takaki, F., &amp; G&#243;mez Rodriguez, G. (2003). Inventario Nacional Forestal: variante tres. <italic>Investigaciones Geogr&#225;ficas</italic>, <italic>43</italic>(2000), 183&#8211;203.</mixed-citation>
+      </ref>
+      <ref id="ID4baa4b0d-0cfb-4aab-89a8-27c3358490a4">
+        <mixed-citation>Palacio-Prieto, J. L., Bocco, G., Vel&#225;zquez, A., Mas, J. F., Takaki-Takaki, F., &amp; G&#243;mez-Rodriguez, G. (2001). Inventario Nacional Forestal: variante uno. <italic>Investigaciones Geogr&#225;ficas</italic>, <italic>43</italic>(2001), 183&#8211;203.</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

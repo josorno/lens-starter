@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="publisher-id">Terra Digitalis</journal-id>
+      <issn pub-type="epub">0000-000X</issn>
+      <publisher>
+        <publisher-name>Terra Digitalis</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="doi">10.1000/123456</article-id>
+      <article-categories>
+        <subj-group subj-group-type="display-channel">
+          <subject>Articulo de investigación</subject>
+        </subj-group>
+        <subj-group subj-group-type="heading">
+          <subject>Geografía</subject>
+        </subj-group>
+        <!--<subj-group subj-group-type="heading">
+          <subject>Genes and Chromosomes</subject>
+        </subj-group>-->
+      </article-categories>
+      <title-group>
+        <article-title>Los Paisajes Físico-Geográficos del estado de Chiapas</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Morales Iglesias</surname>
+            <given-names>Horacio</given-names>
+          </name>
+          <xref ref-type="aff" rid="morales"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Priego Santander</surname>
+            <given-names>Angel Guadalupe</given-names>
+          </name>
+          <xref ref-type="aff" rid="priego"/>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bollo Manent</surname>
+            <given-names>Manuel</given-names>
+          </name>
+          <xref ref-type="aff" rid="bollo"/>
+        </contrib>
+        <aff id="morales">
+          <institution>Instituto de Ciencias Básicas y Aplicadas (ICBA), Centro de Investigación en Gestión de Riesgos y Cambio Climático (CIGERCC), Universidad de Ciencias y Artes de Chiapas de Chiapas (UNICACH)</institution>
+        </aff>
+        <aff id="priego">
+          <institution>Centro de Investigación en Geografía Ambiental (CIGA), Universidad Nacional Autónoma de México (UNAM)</institution>
+        </aff>
+        <aff id="bollo">
+          <institution>Centro de Investigación en Geografía Ambiental (CIGA), Universidad Nacional Autónoma de México (UNAM)</institution>
+        </aff>
+      </contrib-group>
+      <pub-date pub-type="epub">
+        <year>2013</year>
+      </pub-date>
+      <volume>1</volume>
+      <issue>1</issue>
+      <fpage>1</fpage>
+      <lpage>2</lpage>
+      <permissions>
+        <copyright-statement>Copyright &#169; 2017, Horacio Morales Iglesias,  Angel Guadalupe Priego Santander y Manuel Bollo Manent</copyright-statement>
+        <license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. The citation of this article must include: the name(s) of the authors, the name of the journal, the full URL of the article (in a hyperlinked format if distributed online) and the DOI number of the article.</license-p>
+        </license>
+      </permissions>
+      <self-uri>http://132.248.14.208/html/ojs/index.php/terra_digitalis/</self-uri>
+      <abstract>
+      	<title>Abstract</title> 
+        <p>El mapa ofrece la distribución espacial de los paisajes físico-geográficos del estado de Chiapas a escala 1: 250 000, con una edición cartográfica final en 1:500 000; la leyenda incluye la definición de los geocomplejos en cinco niveles taxonómicos tipológicos:          a) Clases, b) Subclases, c) Localidad, d) Paraje Complejo, e) Paraje Simple. Esta obra se obtuvo a través de una serie de sobre - posiciones y generalizaciones cartográficas de información biofísica (geomorfología, geología, clima, suelos, vegetación y uso de suelo); para ello, fue necesario el uso de un sistema de información geográfica. Los resultados indican que existen en el territorio 6 Clases, 19 Subclases, 118 Localidades, 181 Parajes Complejos y 450 Parajes Simples; por tanto, Chiapas posee una diversidad de paisajes con amplio predominio de los geocomplejos de génesis  tectónico–carsificados y          tectónico-intrusivo; aunque también están presentes geosistemas volcánicos, fluviales, lacustres y marino-terrígena, entre otros.</p>
+      </abstract>
+      <kwd-group kwd-group-type="author-created">
+		<title>Keywords</title>
+		<kwd>Chiapas</kwd>
+		<kwd>mapa</kwd>
+		<kwd>paisaje</kwd>
+		<kwd>taxonomía</kwd>
+		<kwd>génesis</kwd>
+		<kwd>territorio</kwd>
+	   </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Introducción</title>
+      <p>La Geograf&#237;a F&#237;sica Compleja es una rama de la Geoecolog&#237;a que analiza al paisaje o geocomplejo como un sistema territorial compuesto por elementos naturales y antropog&#233;nicos condicionados socialmente, que modifican las propiedades de los paisajes naturales originales [<xref rid="IDc80a7157-1697-4332-9610-ce47c2b23589" ref-type="bibr" id="IDd49fecaf-f94a-4596-83ee-9be1ec428df5">1</xref>]. Por tanto, es una unidad espacial integral con visi&#243;n hol&#237;stica que considera los principios estructuro &#8211; gen&#233;tico e hist&#243;rico &#8211; evolutivo, lo que permite establecer una clara estructura taxon&#243;mica de los paisajes que conforman un territorio; en este sentido, el componente geomorfol&#243;gico juega un papel preponderante ya que determina el l&#237;mite f&#237;sico, estructura y funcionalidad del geocomplejo [<xref rid="IDe3d93950-b2cf-4aae-9646-ade197b350d8" ref-type="bibr" id="IDf1b93287-e2e9-4063-955b-3e0667698cf3">2</xref>].</p>
+      <p>Construidos bajo los principios te&#243;ricos mencionados, los mapas de paisajes tienen relevancia en la planificaci&#243;n territorial debido a que proporcionan un inventario de los recursos naturales; adem&#225;s, establecen una zonificaci&#243;n s&#243;lida permite evaluar el territorio de manera objetiva e integral. En este sentido, la presente obra cartogr&#225;fica representa de manera sist&#233;mica los geocomplejos que integran el estado de Chiapas bajo un orden taxon&#243;mico de cinco niveles: a) Clase, b) Subclase, c) Localidad, d) Paraje Complejo, e) Paraje Simple.</p>
+    </sec>
+    <sec>
+      <title>Método</title>
+      <p>El inicio del proceso cartogr&#225;fico fue la compilaci&#243;n y estandarizaci&#243;n de la informaci&#243;n de cada componente biof&#237;sico (geolog&#237;a, clima, suelo, vegetaci&#243;n y uso de suelo), posteriormente se llevaron a cabo las siguientes etapas [<xref rid="IDb30e3845-e06d-4036-93d3-e70ceab2d668" ref-type="bibr" id="ID3b8ef952-a49f-4656-8ad2-0b7e8b7e5a69">3</xref>]:</p>
+    </sec>
+    <sec>
+      <title>Elaboraci&#243;n de un mapa de disecci&#243;n vertical del relieve a escala 1: 250 000.</title>
+      <sec>
+        <title>Superposici&#243;n cartogr&#225;fica del resultado anterior con la informaci&#243;n geol&#243;gica, este proceso permiti&#243; definir los tipos morfogen&#233;ticos del relieve.</title>
+        <p>Superposici&#243;n de la cobertura anterior con los tipos de climas. En este paso se obtuvo la definici&#243;n del tipo de clima que predomina en cada localidad. Cabe aclarar que el mapa de climas solo est&#225; disponible a escala 1:1 000 000, por lo que fue necesario ampliarlo hasta la escala 1:250 000, para ello se consideraron las siguientes premisas:</p>
+        <p>El clima posee distribuci&#243;n continua. Los tipos de climas al ser definidos por las relaciones entre la temperatura y precipitaci&#243;n, poseen generalmente una distribuci&#243;n continua en una secuencia que generalmente suele ser: fr&#237;o de monta&#241;a-semifr&#237;o-templado-semic&#225;lido-c&#225;lido.</p>
+        <p>El tipo de clima a nivel regional generalmente se representa mediante pol&#237;gonos que ocupan extensas &#225;reas, que van desde centenares hasta miles de km2. Este hecho reduce en alguna medida los errores de l&#237;mites que se pueden cometer al ampliar un mapa 1:1 000 000 a otras escalas mayores.</p>
+        <p>Para muchos tipos clim&#225;ticos la vegetaci&#243;n sirve como patr&#243;n de referencia y validaci&#243;n. Se puede verificar la probable confiabilidad de un mapa clim&#225;tico ampliado desde una escala 1:1 000 000 superponiendo la cobertura vegetal, de esta manera comprobamos la variabilidad espacial de los climas con respecto a la cobertura vegetal [<xref rid="IDacc762ae-2ec0-4c61-b7a9-376532b2a35f" ref-type="bibr" id="ID3955f276-693d-4962-86eb-5302bfc9e28b">4</xref>].</p>
+        <p>Superposici&#243;n del mapa de vegetaci&#243;n y uso del suelo con los resultados del paso anterior. En este paso se logr&#243; la definici&#243;n de los tipos de comunidad vegetal para cada unidad inferior de los paisajes.</p>
+      </sec>
+      <sec>
+        <title>Superposici&#243;n de los resultados del paso anterior con el mapa edafol&#243;gico. En este punto se logr&#243; conocer la composici&#243;n ed&#225;fica de las unidades inferiores de paisajes.</title>
+        <p>Edici&#243;n final de la hip&#243;tesis cartogr&#225;fica sobre los paisajes de Chiapas. Cabe se&#241;alar que para una mejor visi&#243;n de la informaci&#243;n, no se represent&#243; en el cuerpo del mapa el nivel de Parajes Complejos.</p>
+      </sec>
+      <sec>
+        <title>Conclusiones</title>
+        <p>Los resultados obtenidos permiten generar las siguientes conclusiones:</p>
+      </sec>
+      <sec>
+        <title>El m&#233;todo de la Geograf&#237;a F&#237;sica Compleja cumpli&#243; con el objetivo de la investigaci&#243;n, ya que esclareci&#243; de manera sist&#233;mica y jer&#225;rquica los paisajes que integran el estado de Chiapas.</title>
+        <list list-type="order">
+          <list-item>
+            <p>La mayor&#237;a de los paisajes ubicados al norte de la Depresi&#243;n Central de Chiapas se caracterizan por presentar dos tipos de g&#233;nesis: tect&#243;nico &#8211; c&#225;rstico y tect&#243;nico &#8211; acumulativo, as&#237; como una compleja distribuci&#243;n en una amplia extensi&#243;n territorial. Respecto a los paisajes localizados al sur de dicha provincia fisiogr&#225;fica, se debe se&#241;alar el predominio gen&#233;tico tect&#243;nico &#8211; intrusivo, una distribuci&#243;n m&#225;s homog&#233;nea en una menor extensi&#243;n territorial.</p>
+          </list-item>
+          <list-item>
+            <p>Los paisajes f&#237;sico-geogr&#225;ficos m&#225;s representativos de Chiapas son de tipo monta&#241;oso de origen tect&#243;nico&#8211;c&#225;rstico y tect&#243;nico&#8211;acumulativo en clima semic&#225;lido h&#250;medo a subh&#250;medo.</p>
+          </list-item>
+        </list>
+      </sec>
+    </sec>
+    <sec>
+      <title>Debido al dominio territorial que tienen los procesos tect&#243;nicos en la entidad, el factor altitudinal es quiz&#225; el m&#225;s trascedente en la diferenciaci&#243;n de los paisajes f&#237;sico &#8211; geogr&#225;ficos de Chiapas.</title>
+      <sec>
+        <title>Software</title>
+        <p>El mapa de los Paisajes F&#237;sico &#8211; Geogr&#225;ficos de Chiapas fue realizado con el apoyo de dos sistemas de informaci&#243;n geogr&#225;fica: Arc View, ver. 3.2 y Arc-Map, ver. 10.1. En la construcci&#243;n del mapa fueron aplicados una diversidad de m&#243;dulos, sin embargo, fue recurrente el uso de las siguientes herramientas: Geoprosesing, Xtools, Memotools, Edit tools. </p>
+      </sec>
+      <sec>
+        <title>Datos</title>
+        <p>La investigaci&#243;n gener&#243; datos espaciales en formato vectorial (pol&#237;gonos), esta informaci&#243;n est&#225; contenida en un sistema de informaci&#243;n geogr&#225;fica (Arc-Map ver. 10.1) bajo las siguientes particularidades:</p>
+      </sec>
+      <sec>
+        <title>Informaci&#243;n de los datos espaciales</title>
+        <p>Estructura del dato<bold>:</bold> Vector. </p>
+        <p>Tipo del dato: Pol&#237;gonos. </p>
+        <p>N&#250;mero total de pol&#237;gonos: 7043</p>
+      </sec>
+      <sec>
+        <title>Proyecci&#243;n cartogr&#225;fica</title>
+        <p>Sistema de coordenadas: Planas. </p>
+        <p>Nombre de la proyecci&#243;n: Universal Transversa de Mercator.</p>
+      </sec>
+      <sec>
+        <title>Par&#225;metros de la proyecci&#243;n</title>
+        <p>Factor de escala: 0.99960000 </p>
+        <p>Latitud de origen: 0.0000000 </p>
+        <p>Meridiano central: -93 </p>
+        <p>Falso este en metros: 500 000</p>
+        <p>Falso norte en metros: 0 </p>
+      </sec>
+      <sec>
+        <title>Informaci&#243;n geod&#233;sica</title>
+        <p>Nombre del elipsoide: WGS 1984.</p>
+        <p>Bajo los anteriores par&#225;metros cartogr&#225;ficos, el mapa estima una precisi&#243;n en sus ejes X-Y de +/- 250 metros. </p>
+      </sec>
+      <sec>
+        <title>Atributos del mapa</title>
+        <p>Nombre de entidad (tabla): Attributes of Paraje_simpl_24-08-16.</p>
+        <p>Descripci&#243;n de la entidad: Atributos de los paisajes a nivel Paraje simple.</p>
+        <p><italic>N</italic>ombre del atributo: Id. </p>
+        <p>Definici&#243;n del atributo: Muestra el identificador de cada pol&#237;gono. </p>
+        <p>Tipo de dato: Num&#233;rico. </p>
+        <p>Unidades de medida: Sin unidades. </p>
+        <p>Origen del atributo: Generado por el mapa de paisajes.</p>
+        <p>Nombre del atributo: Contorno. </p>
+        <p>Definici&#243;n del atributo: Muestra el &#225;rea del pol&#237;gono que contiene el estado de Chiapas. </p>
+        <p>Tipo de dato: Num&#233;rico. </p>
+        <p>Unidades de medida: Sin unidades. </p>
+        <p>Origen del atributo: Dato compilado.</p>
+        <p>Nombre del atributo: Clave_sect. </p>
+        <p>Definici&#243;n del atributo: Muestra la clave de paisaje a nivel de Clase. </p>
+        <p>Tipo de dato: Texto. </p>
+        <p>Unidades de medida: Sin unidades. </p>
+        <p>Origen del atributo: Dato originado por la clasificaci&#243;n de la unidad de paisaje a nivel Clase.</p>
+        <p>Nombre del atributo: Sector. </p>
+        <p>Definici&#243;n del atributo: Muestra el paisaje a nivel de Clase. </p>
+        <p>Tipo de dato: Texto. </p>
+        <p>Unidades de medida: Sin unidades. </p>
+        <p>Origen del atributo: Dato generado por el m&#233;todo cartogr&#225;fico aplicado.</p>
+        <p>Nombre del atributo: Clave_subs. </p>
+        <p>Definici&#243;n del atributo: Muestra la clave del paisaje a nivel Subsector. </p>
+        <p>Tipo de dato: Texto. </p>
+        <p>Unidades de medida: Sin unidades.</p>
+        <p>Origen del atributo: Dato originado por la clasificaci&#243;n de la unidad de paisaje a nivel Subclase.</p>
+        <p>Nombre del atributo: Subsector. </p>
+        <p>Definici&#243;n del atributo: Muestra el paisaje a nivel Subsector. </p>
+        <p>Tipo de dato: Texto. </p>
+        <p>Unidades de medida: Sin unidades. </p>
+        <p>Origen del atributo: Dato generado por el m&#233;todo cartogr&#225;fico aplicado.</p>
+        <p>Nombre del atributo: Clave_loca. </p>
+        <p>Definici&#243;n del atributo: Muestra la clave del paisaje a nivel Localidad. </p>
+        <p>Tipo de dato: Texto. </p>
+        <p>Unidades de medida: Sin unidades. </p>
+        <p>Origen del atributo: Dato originado por la clasificaci&#243;n de la unidad de paisaje a nivel de Localidad.</p>
+        <p>Nombre del atributo: Localidad. </p>
+        <p>Definici&#243;n del atributo: Muestra los atributos del paisaje a nivel Localidad. </p>
+        <p>Tipo de dato: Texto. </p>
+        <p>Unidades de medida: Sin unidades. </p>
+        <p>Origen del atributo: Dato generado por el m&#233;todo cartogr&#225;fico aplicado.</p>
+        <p>Nombre del atributo: Clave_para. </p>
+        <p>Definici&#243;n del atributo: Muestra la clave del paisaje a nivel de Paraje complejo. </p>
+        <p>Tipo de dato: Texto. </p>
+        <p>Unidades de medida: Sin unidades. </p>
+        <p>Origen del atributo: Dato originado por la clasificaci&#243;n de la unidad de paisaje a nivel de Paraje complejo.</p>
+        <p>Nombre del atributo: Paraje_comp.</p>
+        <p>Definici&#243;n del atributo: Muestra los atributos del paisaje a nivel de Paraje complejo. </p>
+        <p>Tipo de dato: Texto. </p>
+        <p>Unidades de medida: Sin unidades. </p>
+        <p>Origen del atributo: Dato generado por el m&#233;todo cartogr&#225;fico aplicado.</p>
+        <p>Nombre del atributo: Clavecomar.</p>
+        <p>Definici&#243;n del atributo: Muestra la clave del paisaje a nivel Paraje simple. </p>
+        <p>Tipo de dato: Num&#233;rico. </p>
+        <p>Unidades de medida: Sin unidades. </p>
+        <p>Origen del atributo: Dato originado por la clasificaci&#243;n de la unidad de paisaje a nivel de Paraje simple.</p>
+        <p>Nombre del atributo: Paraje_sim.</p>
+        <p>Definici&#243;n del atributo: Muestra los atributos del paisaje a nivel de Paraje Simple. </p>
+        <p>Tipo de dato: Texto. </p>
+        <p>Unidades de medida: Sin unidades.</p>
+        <p>Origen del atributo: Dato generado por el m&#233;todo cartogr&#225;fico aplicado.</p>
+        <p>Nombre del atributo: Tipo. </p>
+        <p>Definici&#243;n del atributo: Muestra el &#225;ngulo de inclinaci&#243;n presente en la unidad de paisaje. </p>
+        <p>Tipo de dato: Texto - Num&#233;rico. </p>
+        <p>Unidades de medida: Grados. </p>
+        <p>Origen del atributo: Dato generado por el m&#233;todo cartogr&#225;fico aplicado.</p>
+        <p>Nombre del atributo: Veguso. </p>
+        <p>Definici&#243;n del atributo: Muestra los tipos de vegetaci&#243;n y uso de suelo presentes en la unidad de paisaje. </p>
+        <p>Tipo de dato: Texto. </p>
+        <p>Unidades de medida: Sin unidades. </p>
+        <p>Origen del atributo: Dato compilado e incorporado a la unidad de paisaje de acuerdo al m&#233;todo cartogr&#225;fico aplicado.</p>
+        <p>Nombre del atributo: Suelos. </p>
+        <p>Definici&#243;n del atributo: Muestra las asociaciones ed&#225;ficas presentes en la unidad de paisaje. </p>
+        <p>Tipo de dato: Texto. </p>
+        <p>Unidades de medida: Sin unidades. </p>
+        <p>Origen del atributo: Dato compilado e incorporado a la unidad de paisaje de acuerdo al m&#233;todo cartogr&#225;fico aplicado.</p>
+        <p>Nombre del atributo: Area. </p>
+        <p>Definici&#243;n del atributo: Muestra &#225;rea que ocupa la unidad de paisaje a nivel de Paraje simple. </p>
+        <p>Tipo de dato: Num&#233;rico. </p>
+        <p>Unidades de medida: km2. </p>
+        <p>Origen del atributo: Dato generado por el m&#233;todo cartogr&#225;fico aplicado.</p>
+        <p>Los derechos patrimoniales pertenecen al Centro de Investigaciones en Geograf&#237;a Ambiental (CIGA) de la Universidad Nacional Aut&#243;noma de M&#233;xico (UNAM), y los derechos morales son propiedad de los autores. Para obtener el sistema de informaci&#243;n geogr&#225;fica deber&#225; solicitarlo mediante una carta a la Direcci&#243;n del CIGA.</p>
+      </sec>
+      <sec>
+        <title>Agradecimientos</title>
+        <p>Los autores agradecen a Luis Alberto Mendoza Rodr&#237;guez y Fany Selene De Le&#243;n Cruz por su apoyo en la compilaci&#243;n y estandarizaci&#243;n de la informaci&#243;n cartogr&#225;fica, a Miguel &#193;ngel Alatorre Ibarg&#252;engoitia por su colaboraci&#243;n en la traducci&#243;n del resumen al idioma ingl&#233;s.</p>
+      </sec>
+      <sec>
+        <title>Dise&#241;o del mapa</title>
+        <p>Para representar de manera sist&#233;mica una vasta informaci&#243;n biof&#237;sica, el trabajo de edici&#243;n cartogr&#225;fica se apoy&#243; en tres elementos: color, grosor de contornos y clave. El primero establece una diferenciaci&#243;n a nivel de Subclase; para su asignaci&#243;n se consideraron las peculiaridades clim&#225;ticas y geomorfol&#243;gicas del paisaje; en este sentido y a manera de ejemplo, el color morado fue asignado a los geosistemas en clima c&#225;lido h&#250;medo, en alusi&#243;n a las altas temperaturas y elevados niveles de precipitaci&#243;n; cabe se&#241;alar que el color presenta una gradaci&#243;n en relaci&#243;n al tipo de relieve; por tanto, el tono m&#225;s fuerte corresponde a los paisajes monta&#241;osos y el m&#225;s claro a los geocomplejos de valle.</p>
+        <p>Por lo que al grosor de contornos se refiere, estos reflejan la propiedad de &#8220;anidaci&#243;n&#8221; entre paisajes; en este sentido, los paisajes a nivel de Localidad con respecto a los Parajes Simples poseen un mayor grosor en su contorno. Por lo que al tercer elemento se refiere, este plasma el arreglo taxon&#243;mico de los paisajes mediante claves, donde la letra may&#250;scula representa a los geosistemas a nivel de Clase, mientras que las Localidades y Parajes simples son representados n&#250;meros romanos y ar&#225;bigos respectivamente.</p>
+        <p>Por otra parte, el mapa considera en su parte inferior una leyenda de tipo jer&#225;rquica, que describe de manera taxon&#243;mica en espa&#241;ol e ingl&#233;s los diferentes paisajes que integran el estado de Chiapas. Por &#250;ltimo y con el objetivo de optimizar espacio, se plasm&#243; en el cuerpo del mapa sin afectar la legibilidad los s&#237;mbolos convencionales y par&#225;metros cartogr&#225;ficos.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Visualizador</title>
+      <supplementary-material id="map" xmlns:xlink="http://www.w3.org/1999/xlink"
+        xlink:title="local_file" xlink:href="http://132.248.14.208/html/mapas/paisajesChiapas1/index1.html"
+        mimetype="application/html">
+      <!--<object-id pub-id-type="doi">10.7554/eLife.21900.021</object-id>-->
+        <label>Mapa Interactivo</label>
+        <caption>
+          <title>Los paisajes físico-geográficos del estado de Chiapas.</title>
+          <p>
+            <bold>DOI:</bold>
+            <ext-link ext-link-type="doi" xlink:href="10.7554/eLife.21900.021">http://dx.doi.org/10.7554/eLife.21900.021</ext-link>
+          </p>
+        </caption>
+      <media mime-subtype="php" mimetype="application" xlink:href="http://132.248.14.208/html/mapas/paisajesChiapas1/index1.html"/>
+    </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <ref id="ref1">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bollo</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hernández</surname>
+              <given-names>J. R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Paisajes físico – geográficos de noroeste del estado de Chiapas</article-title>
+          <source>Investigaciones Geográficas</source>
+          <date>
+            <year>2007</year>
+          </date>
+          <volume>N/A</volume>
+          <issue>66</issue>
+          <fpage>7</fpage>
+          <lpage>24</lpage>
+        </element-citation>
+      </ref>
+      <ref id="ref2">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname></surname>
+              <given-names>Environmental System Research Institute, Inc</given-names>
+            </name>
+          </person-group>
+          <source>Geographical Information System, Arc View: ver. 3.2</source>
+          <date>
+            <year>1999</year>
+          </date>
+          <publisher-loc>United States of America</publisher-loc>
+          <publisher-name>Redland, CA</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="ref3">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname></surname>
+              <given-names>Environmental System Research Institute, Inc</given-names>
+            </name>
+          </person-group>
+          <source>Geographical Information System, Arc Map: ver. 10.1</source>
+          <date>
+            <year>2012</year>
+          </date>
+          <publisher-loc>United States of America</publisher-loc>
+          <publisher-name>Redland, CA</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="ref4">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>García</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <source>Carta de climas de la República Mexicana, versión digital,                 escala 1:1 000 000</source>
+          <date>
+            <year>1998</year>
+          </date>
+          <publisher-loc>México, D.F.</publisher-loc>
+          <publisher-name>Comisión Nacional para el Conocimiento y Uso de la Biodiversidad</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="ref5">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname></surname>
+              <given-names>Servicio Geológico Mexicano</given-names>
+            </name>
+          </person-group>
+          <source>Cartas geológico-mineras E15-10, D15-1, E15-11, E15-12, D15-3, D15-2, D15-5, escala 1:250 000</source>
+          <date>
+            <year>2005</year>
+          </date>
+          <publisher-loc>Pachuca, Hidalgo, México</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="ref6">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname></surname>
+              <given-names>Instituto Nacional de Estadística y Geográfica</given-names>
+            </name>
+          </person-group>
+          <source>Conjunto de datos vectoriales topográficos del continuo nacional, escala 1:50 000</source>
+          <date>
+            <year>1999</year>
+          </date>
+          <publisher-loc>Aguascalientes, Aguascalientes, México</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="ref7">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname></surname>
+              <given-names>Instituto Nacional de Estadística y Geográfica</given-names>
+            </name>
+          </person-group>
+          <source>Conjunto de datos vectoriales edafológicos del continuo nacional, serie II, escala 1:250 000</source>
+          <date>
+            <year>2007</year>
+          </date>
+          <publisher-loc>Aguascalientes, Aguascalientes, México</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="ref8">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname></surname>
+              <given-names>Instituto Nacional de Estadística y Geográfica</given-names>
+            </name>
+          </person-group>
+          <source>Conjunto de datos vectoriales de uso de suelo y vegetación del continuo nacional, serie V, escala 1:250 000</source>
+          <date>
+            <year>2013</year>
+          </date>
+          <publisher-loc>Aguascalientes, Aguascalientes, México</publisher-loc>
+        </element-citation>
+      </ref>
+      <ref id="IDc80a7157-1697-4332-9610-ce47c2b23589">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mateo</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <source>Apuntes de Geograf&#237;a de los Paisajes</source>
+          <date>
+            <year>1984</year>
+          </date>
+          <publisher-loc>La Habana, Cuba</publisher-loc>
+          <publisher-name>Imprenta Andre Voisin</publisher-name>
+        </element-citation>
+      </ref>
+      <!--[1] Mateo, J., (1984), Apuntes de Geograf&#237;a de los Paisajes (1era. ed.). La Habana, Cuba: Imprenta Andre Voisin. Ministerio de Educaci&#243;n Superior.-->
+      <ref id="ref10">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ortiz</surname>
+              <given-names>M. A.</given-names>
+            </name>
+          </person-group>
+          <source>Diferenciación tipológica de las regiones ecológicas de México en la modalidad de nivel 5, escala 1:250,000</source>
+          <date>
+            <year>1998</year>
+          </date>
+          <publisher-loc>México D.F</publisher-loc>
+          <publisher-name>Instituto de Geografía, Universidad Nacional Autónoma de México, Instituto Nacional de Ecología, Secretaría del Medio Ambiente y Recursos Naturales y Pesca</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="IDe3d93950-b2cf-4aae-9646-ade197b350d8">
+      	<element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Priego-Santander</surname>
+              <given-names>A. G.</given-names>
+            </name>
+            <name>
+              <surname>Morales-Iglesias</surname>
+              <given-names>R. L.</given-names>
+            </name>
+            <name>
+              <surname>Enríquez-Guadarrama</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Paisajes físico-geográficos de la cuenca Lerma-Chapala</article-title>
+          <source>Gaceta Ecológica</source>
+          <date>
+            <year>2004</year>
+          </date>
+          <volume>15</volume>
+          <issue>71</issue>
+          <fpage>11</fpage>
+          <lpage>22</lpage>
+        </element-citation>
+      </ref>
+      <ref id="IDb30e3845-e06d-4036-93d3-e70ceab2d668">
+      	<element-citation publication-type="bookchapter">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Priego-Santander</surname>
+              <given-names>A. G.</given-names>
+            </name>
+            <name>
+              <surname>Isunza-Vera</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Luna-González</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Pérez-Damian</surname>
+              <given-names>J. L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Método para realizar mapa de disección vertical, Disección vertical del relieve de México a escala 1:250 000</article-title>
+          <source>Propuesta para la generación de unidades de paisaje de manera semi-automatizada. Fundamentos y método, Serie Planeación Territorial</source>
+          <date>
+            <year>2003</year>
+          </date>
+          <publisher-loc>México</publisher-loc>
+          <publisher-name>Secretaría del Medio Ambiente y Recursos Naturales, Instituto Nacional de Ecología, Centro de Investigaciones en Geografía Ambiental, Universidad Nacional Autónoma de México</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="IDacc762ae-2ec0-4c61-b7a9-376532b2a35f">
+      	<element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Priego-Santander</surname>
+              <given-names>A. G.</given-names>
+            </name>
+            <name>
+              <surname>Bocco</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Mendoza</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Garrido</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Propuesta para la generación de unidades de paisaje de manera semi-automatizada. Fundamentos y método, Serie Planeación Territorial</article-title>
+          <date>
+            <year>2010</year>
+          </date>
+          <publisher-loc>México</publisher-loc>
+          <publisher-name>Secretaría del Medio Ambiente y Recursos Naturales, Instituto Nacional de Ecología, Centro de Investigaciones en Geografía Ambiental, Universidad Nacional Autónoma de México</publisher-name>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>

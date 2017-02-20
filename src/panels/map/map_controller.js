@@ -10,20 +10,10 @@ MapController.Prototype = function() {
     return new MapView(this, this.config);
   };
 
-  /*this.getAltmetrics = function(cb) {
-    var doi = this.document.get('publication_info').doi;
-
-		$.ajax({
-		  url: "http://api.altmetric.com/v1/doi/"+doi,
-		  dataType: "json",
-		}).done(function(res) {
-			cb(null, res);
-		});
-  };*/
 
   this.getMapVisualizerReference = function(){
       var my_supplements = this.document.get("publication_info").mySupplements;
-      if(my_supplements[0]){
+      if(my_supplements != undefined && my_supplements[0]){
         return my_supplements[0].url;
       }
       return "";

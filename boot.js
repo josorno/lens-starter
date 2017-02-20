@@ -34,7 +34,9 @@ var qs = function () {
 //var documentURL = "data/bautista.xml";
 //var documentURL = "data/penelope.xml";
 //var documentURL = "data/stephane.xml";
-var documentURL = "data/cid.xml";
+//var documentURL = "data/cid.xml";
+//var documentURL = "data/horaciomorales.xml";
+var documentURL = "data/causando_error.xml";
 
 $(function() {
 
