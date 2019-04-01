@@ -19,6 +19,15 @@ TerraDigitalisConverter.Prototype = function() {
  		return value;
  	};
 
+ 	// Override document factory so we can create a customized Lens article,
+  // including overridden node types
+  this.createDocument = function() {
+    var doc = new LensArticle({
+      nodeTypes: CustomNodeTypes
+    });
+    return doc;
+  };
+
  	this.enhanceCover = function(state, node, element){
  		var category, dispChannel; 		
 
